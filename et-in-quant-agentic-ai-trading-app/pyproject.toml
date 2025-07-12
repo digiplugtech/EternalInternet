@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "et-in-quant-agentic-ai-trading-app"
+version = "0.1.0"
+description = "Building AI Agentic Quantitative Trading Application to monitor and trade in equities, bonds, gold, mutual funds and F&O"
+authors = ["digiplugtech <anubhav.nanda@digiplugtech.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+numpy = "^2.3.1"
+pendulum = "^3.1.0"
+yfinance = "^0.2.65"
+openai = "^1.95.1"
+pinecone = "^7.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
